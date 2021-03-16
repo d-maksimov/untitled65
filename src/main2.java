@@ -23,7 +23,7 @@ public class main2 {
 
     }
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 4, 32, 5, 67, 76, 5, 999};
+        int[] arr = new int[]{1, 4, 32, 5, 67, 76, 5, 999,1000};
 
         quickSort(arr,0,arr.length-1);
 
@@ -32,4 +32,5 @@ public class main2 {
             System.out.print(arr[i] + " ");
         }
     }
+
 }
